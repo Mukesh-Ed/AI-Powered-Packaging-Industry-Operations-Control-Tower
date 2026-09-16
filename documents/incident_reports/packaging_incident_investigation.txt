@@ -1,0 +1,165 @@
+PACKAGING INCIDENT INVESTIGATION FRAMEWORK
+Project: AI-Powered Packaging Industry Operations Control Tower
+
+DOCUMENT TYPE:
+Project Knowledge Document
+
+PURPOSE:
+This document defines a structured approach for investigating operational incidents using data, ML predictions, and knowledge retrieval.
+
+1. INCIDENT DEFINITION
+
+An operational incident may involve:
+
+- Unexpected downtime
+- Significant production reduction
+- Repeated alarms
+- Unusual machine behavior
+- High anomaly score
+- High predicted operational risk
+
+2. INCIDENT INVESTIGATION FLOW
+
+The recommended investigation flow is:
+
+Step 1:
+Identify the affected equipment.
+
+Step 2:
+Review recent production.
+
+Step 3:
+Review recent downtime.
+
+Step 4:
+Review performance loss.
+
+Step 5:
+Review idle behavior.
+
+Step 6:
+Check alarm and event information.
+
+Step 7:
+Check anomaly detection results.
+
+Step 8:
+Check risk prediction results.
+
+Step 9:
+Search the knowledge base.
+
+Step 10:
+Generate a structured investigation summary.
+
+3. OBSERVED EVIDENCE
+
+The AI assistant should clearly separate observed information from assumptions.
+
+Example:
+
+Observed Evidence:
+- Production decreased during the monitoring period.
+- Downtime increased.
+- An anomaly was detected.
+- Risk probability increased.
+
+These statements should be based on actual system data.
+
+4. POSSIBLE CAUSE
+
+The AI system may identify a possible cause only when there is supporting evidence.
+
+Use wording such as:
+
+"Possible cause"
+
+or
+
+"Likely contributing factor"
+
+rather than claiming certainty.
+
+5. SUPPORTING KNOWLEDGE
+
+The RAG system should retrieve relevant information from:
+
+- Machine operation documentation
+- Alarm investigation guides
+- Maintenance guidelines
+- Previous incident documentation
+
+The retrieved information should support the investigation.
+
+6. ROOT-CAUSE CONFIDENCE
+
+Confidence should reflect the available evidence.
+
+HIGH:
+Multiple independent evidence sources support the conclusion.
+
+MEDIUM:
+Several indicators support the conclusion, but additional verification is needed.
+
+LOW:
+Limited evidence is available.
+
+7. RECOMMENDED ACTION
+
+Recommendations may include:
+
+- Investigate recent alarms
+- Review downtime events
+- Inspect relevant operational conditions
+- Review maintenance history
+- Continue monitoring
+- Escalate to maintenance personnel
+
+The system should not instruct unqualified users to perform physical repairs.
+
+8. HUMAN APPROVAL
+
+Before physical intervention, a qualified person must review:
+
+- Machine condition
+- Alarm information
+- Operational evidence
+- Maintenance documentation
+- AI recommendation
+
+9. INCIDENT REPORT FORMAT
+
+Recommended AI output:
+
+Equipment:
+[Equipment ID]
+
+Incident:
+[Description]
+
+Observed Evidence:
+[Evidence from SQL/ML]
+
+Relevant Knowledge:
+[Retrieved RAG information]
+
+Likely Contributing Cause:
+[Evidence-based interpretation]
+
+Risk Level:
+[Risk Level]
+
+Recommended Investigation:
+[Recommended next step]
+
+Confidence:
+[HIGH / MEDIUM / LOW]
+
+Human Verification:
+Required
+
+10. LESSONS LEARNED
+
+After an incident is resolved, the investigation result can be documented and added to the knowledge base if it is approved and appropriate.
+
+This allows future investigations to use previous incident knowledge.

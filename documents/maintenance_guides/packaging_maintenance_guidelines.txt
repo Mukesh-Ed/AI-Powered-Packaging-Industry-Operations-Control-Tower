@@ -1,0 +1,137 @@
+PACKAGING MACHINE MAINTENANCE GUIDELINES
+Project: AI-Powered Packaging Industry Operations Control Tower
+
+DOCUMENT TYPE:
+Project Knowledge Document
+
+PURPOSE:
+This document provides general maintenance investigation guidance for the AI Operations Control Tower.
+
+IMPORTANT:
+These are general project guidelines. They are not a replacement for manufacturer maintenance procedures.
+
+1. MAINTENANCE PRINCIPLE
+
+Maintenance decisions should be based on evidence.
+
+The control tower can identify machines that may require attention, but physical maintenance decisions require human verification.
+
+2. HIGH DOWNTIME
+
+When a machine shows unusually high downtime, investigate:
+
+- Recent downtime events
+- Alarm activity
+- Production reduction
+- Repeated operational interruptions
+- Recent machine changes
+- Historical downtime pattern
+
+3. LOW PRODUCTION
+
+When production decreases, investigate:
+
+- Downtime
+- Idle time
+- Performance loss
+- Operational changes
+- Alarm events
+- Recent machine history
+
+Low production does not automatically mean equipment failure.
+
+4. PERFORMANCE LOSS
+
+When performance loss increases, compare it with:
+
+- Production
+- Downtime
+- Idle time
+- Historical performance
+- Anomaly score
+- Predicted risk
+
+Multiple indicators showing deterioration provide stronger evidence than one indicator alone.
+
+5. REPEATED EVENTS
+
+Repeated abnormal events should be investigated.
+
+The system can identify:
+
+- Repeated anomalies
+- Repeated alarms
+- Repeated downtime
+- Repeated production deterioration
+
+Repeated events can be prioritized for human investigation.
+
+6. MAINTENANCE PRIORITY
+
+A project-defined priority can consider:
+
+- Severity of operational deterioration
+- Risk prediction
+- Anomaly detection
+- Production impact
+- Downtime impact
+- Frequency of abnormal events
+
+Example priority categories:
+
+CRITICAL:
+Immediate human investigation recommended.
+
+HIGH:
+Maintenance investigation should be prioritized.
+
+MEDIUM:
+Monitor and investigate when appropriate.
+
+LOW:
+Continue monitoring.
+
+These categories are project decision-support labels and are not manufacturer-defined severity levels.
+
+7. BEFORE MAINTENANCE
+
+Before physical maintenance:
+
+- Verify the machine condition
+- Verify the relevant alarm or event
+- Review available maintenance documentation
+- Confirm the operational impact
+- Follow approved safety procedures
+- Obtain required human approval
+
+8. AFTER MAINTENANCE
+
+After maintenance, monitor:
+
+- Production
+- Downtime
+- Performance
+- Alarm frequency
+- Anomaly status
+- Risk probability
+
+The control tower can compare operational behavior before and after an intervention.
+
+9. AI RECOMMENDATION
+
+The AI assistant should present recommendations as suggestions.
+
+It should provide:
+
+- Observed evidence
+- Supporting knowledge
+- Possible cause
+- Recommended investigation
+- Confidence
+- Human verification requirement
+
+10. SAFETY
+
+AI recommendations must not replace established industrial safety procedures.
+
+Physical machine intervention must follow authorized procedures and qualified personnel requirements.

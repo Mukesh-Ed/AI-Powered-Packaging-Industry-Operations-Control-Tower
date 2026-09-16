@@ -1,0 +1,123 @@
+PACKAGING MACHINE OPERATIONS KNOWLEDGE
+Project: AI-Powered Packaging Industry Operations Control Tower
+
+DOCUMENT TYPE:
+Project Knowledge Document
+
+PURPOSE:
+This document provides general operational guidance for investigating packaging machine performance. It is intended for the AI Operations Control Tower demonstration and should not be treated as a manufacturer-specific machine manual.
+
+1. MACHINE OPERATION OVERVIEW
+
+Packaging machines operate through a sequence of production activities. Operational performance can be affected by production rate, downtime, idle periods, process changes, scheduled downtime, and performance loss.
+
+The control tower monitors these operational indicators to identify unusual behavior and potential deterioration.
+
+2. PRODUCTION
+
+Production represents the observed production performance for a machine during a monitoring interval.
+
+A reduction in production can indicate that the machine is not operating at its expected operational level.
+
+When production decreases, the investigation should consider:
+
+- Recent downtime
+- Idle periods
+- Performance loss
+- Machine changes
+- Recent alarms or events
+- Recent operational history
+
+Production reduction alone should not be treated as proof of equipment failure.
+
+3. DOWNTIME
+
+Downtime represents a period during which productive machine operation is reduced or unavailable.
+
+High downtime can reduce production output and may indicate an operational issue.
+
+When downtime increases, the investigation should consider:
+
+- Frequency of downtime
+- Duration of downtime
+- Whether downtime is scheduled
+- Whether downtime is associated with alarms
+- Whether production decreases at the same time
+- Historical machine behavior
+
+4. IDLE TIME
+
+Idle time represents periods where the machine is not actively producing.
+
+High idle time can contribute to reduced production.
+
+Possible investigation areas include:
+
+- Production scheduling
+- Material availability
+- Operator activity
+- Machine waiting conditions
+- Process transitions
+
+Idle time should not automatically be classified as equipment failure.
+
+5. PERFORMANCE LOSS
+
+Performance loss represents a reduction from expected operational performance.
+
+High performance loss together with reduced production may indicate deterioration in operational efficiency.
+
+The system should compare performance loss with other available operational indicators before generating a conclusion.
+
+6. SCHEDULED DOWNTIME
+
+Scheduled downtime is planned downtime associated with operational activities.
+
+Examples can include:
+
+- Planned maintenance
+- Planned production breaks
+- Changeover activities
+- Scheduled operational pauses
+
+Scheduled downtime should be distinguished from unexpected downtime when possible.
+
+7. MACHINE CHANGES
+
+Operational changes can occur during machine operation.
+
+A high number of changes may be associated with:
+
+- Product changeovers
+- Process changes
+- Configuration changes
+- Operational transitions
+
+The meaning of a change must be verified using available operational documentation.
+
+8. MACHINE HEALTH
+
+The project may calculate a project-defined health score using operational indicators such as downtime, idle time, and performance loss.
+
+The health score is an analytical indicator created by the project.
+
+It is not a manufacturer-certified machine health measurement.
+
+9. INVESTIGATION PRINCIPLE
+
+The AI system should not identify a root cause from one metric alone.
+
+A proper investigation should combine:
+
+- Current operational data
+- Historical operational behavior
+- Detected anomalies
+- Risk prediction
+- Alarm information
+- Relevant maintenance knowledge
+
+10. HUMAN VERIFICATION
+
+AI-generated recommendations are decision-support information.
+
+A qualified human operator or maintenance engineer should verify the evidence before performing physical maintenance or operational actions.

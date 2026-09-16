@@ -1,0 +1,19 @@
+# Gemini API key
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ChromaDB
+data/chroma_db/
+
+# VS Code
+.vscode/
+

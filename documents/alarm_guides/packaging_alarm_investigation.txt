@@ -1,0 +1,105 @@
+PACKAGING ALARM INVESTIGATION GUIDE
+Project: AI-Powered Packaging Industry Operations Control Tower
+
+DOCUMENT TYPE:
+Project Knowledge Document
+
+PURPOSE:
+This document provides a general framework for investigating alarms recorded in packaging operations.
+
+IMPORTANT:
+The PIADE dataset contains alarm/event information, but this project document does not assign unsupported mechanical meanings to individual alarm codes.
+
+1. ALARM OVERVIEW
+
+An alarm is an operational event that may indicate an abnormal or noteworthy machine condition.
+
+An alarm should be investigated together with production, downtime, performance, and historical machine behavior.
+
+An alarm by itself does not prove that a specific component has failed.
+
+2. ALARM INVESTIGATION
+
+When an alarm is detected, the control tower should examine:
+
+- Equipment ID
+- Alarm identifier
+- Alarm occurrence time
+- Alarm duration when available
+- Machine production around the event
+- Downtime around the event
+- Performance loss around the event
+- Previous alarms
+- Anomaly detection results
+- Risk prediction results
+
+3. RECENT ALARM ANALYSIS
+
+The system should determine whether the alarm is:
+
+- A single isolated event
+- Repeated over a short period
+- Associated with production reduction
+- Associated with increased downtime
+- Associated with an anomaly
+- Associated with elevated predicted risk
+
+Repeated events may require additional investigation.
+
+4. ALARM FREQUENCY
+
+A high alarm count may indicate repeated operational events.
+
+However, alarm frequency should not automatically be interpreted as equipment failure.
+
+The meaning of an alarm depends on approved operational documentation.
+
+5. ALARM AND PRODUCTION
+
+If an alarm occurs at approximately the same time as a production decrease, the event should be investigated further.
+
+The system can report:
+
+Observed Evidence:
+- Alarm detected
+- Production decreased
+- Downtime increased
+
+Possible Interpretation:
+The alarm may be associated with the observed operational deterioration.
+
+The system must not state that the alarm caused the deterioration unless supporting evidence is available.
+
+6. ALARM AND DOWNTIME
+
+An alarm occurring during a period of increased downtime can be useful evidence during investigation.
+
+The AI system should compare:
+
+- Alarm timing
+- Downtime timing
+- Production timing
+- Historical machine behavior
+
+7. UNKNOWN ALARM MEANING
+
+If the knowledge base does not contain information explaining an alarm code, the AI assistant should explicitly state:
+
+"Alarm meaning is not available in the current knowledge base."
+
+The assistant should not invent an alarm definition.
+
+8. ROOT-CAUSE INVESTIGATION
+
+Alarm information can be one evidence source in a root-cause investigation.
+
+The system should combine alarm evidence with:
+
+- SQL operational data
+- ML anomaly detection
+- ML risk prediction
+- RAG maintenance knowledge
+
+9. HUMAN VERIFICATION
+
+An operator or maintenance engineer must verify alarm meaning and machine condition before taking physical action.

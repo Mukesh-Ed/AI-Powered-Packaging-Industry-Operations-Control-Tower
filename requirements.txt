@@ -1,0 +1,17 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+scikit-learn
+xgboost
+joblib
+sqlalchemy
+mysql-connector-python
+python-dotenv
+fastapi
+uvicorn
+streamlit
+chromadb
+google-genai
+pydantic

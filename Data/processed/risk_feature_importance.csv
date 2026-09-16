@@ -1,0 +1,13 @@
+feature,importance
+production_rolling_6h,0.09957415
+health_score,0.085304566
+%performance_loss,0.08506344
+%scheduled_downtime,0.08496437
+downtime_change,0.08353748
+%production,0.083154865
+%idle,0.08300535
+production_change,0.08256374
+downtime_rolling_6h,0.08191474
+performance_change,0.07990123
+%downtime,0.07802996
+#changes,0.072986074
