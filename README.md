@@ -1,6 +1,4 @@
-from pathlib import Path
-
-readme = r'''# 🏭 AI-Powered Packaging Industry Operations Control Tower
+# 🏭 AI-Powered Packaging Industry Operations Control Tower
 
 ### Anomaly Detection | Predictive Risk Analysis | RAG | Gemini AI | AI Agent | Root-Cause Investigation | FastAPI | Streamlit | Real-Time Simulation
 
@@ -1711,7 +1709,4 @@ The dataset remains subject to its original source and licensing terms.
 **AI-Powered Packaging Industry Operations Control Tower**
 '''
 
-path = Path("/mnt/data/README.md")
-path.write_text(readme, encoding="utf-8")
-print(f"Created: {path}")
-print(f"Lines: {len(readme.splitlines())}")
+
