@@ -1673,6 +1673,29 @@ st.markdown(
 
 col1, col2, col3 = st.columns(3)
 
+# ==========================================
+# MACHINE DATA
+# ==========================================
+
+st.subheader("🏭 Machine Data")
+
+# Use the already filtered operational dataframe for the selected machine.
+machine_df = machine_data.copy()
+
+if machine_df.empty:
+    st.warning(f"No machine data available for {selected_machine}")
+else:
+
+    machine_summary = {
+        "Machine": selected_machine,
+        "Records": int(machine_df.shape[0]),
+    }
+
+    st.dataframe(
+        machine_df,
+        use_container_width=True
+    )
+
 # ------------------------------------------------------------
 # MACHINE EVIDENCE
 # ------------------------------------------------------------
